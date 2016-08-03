@@ -1,3 +1,14 @@
 .form-control {
 	margin-bottom: 10px;
 }
+
+#searchButton {
+	background-color: gray;
+	color: white;
+}
+
+#clearButton {
+	background-color: gray;
+	color: white;
+
+}
