@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NYT Project!</title>
+    <title>NYT Project!</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 
 <div class="container">
-		<!--Jumbotron-->
-	<div class="jumbotron" style="background-color: blue ; color: white;">
-		<h1 class="text-center">New York Times Search</h1>
-	</div>
+        <!--Jumbotron-->
+    <div class="jumbotron" style="background-color: blue ; color: white;">
+        <h1 class="text-center">New York Times Search</h1>
+    </div>
 
+    <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading">Search Parameters</div>
+          <div class="panel-body">
+                  <p>Search Term</p>
+                <input id="term" type="text" class="form-control" placeholder="Text input">
+                <p>Number of Records to Retrieve</p>
+                <input id="numRecords" type="text" class="form-control" placeholder="Text input">
+                <p>Start Year (optional)</p>
+                <input id="startYear" type="text" class="form-control" placeholder="Text input">
+                <p>End year (optional)</p>
+                <input id="endYear" type="text" class="form-control" placeholder="Text input">
 
+                <button id="searchButton" class="btn btn-default" type="submit">Search</button>    
+               <button id="clearButton" class="btn btn-default" type="submit">Clear Results</button>
 
-	<div class="panel panel-default">
-		  <!-- Default panel contents -->
-		  <div class="panel-heading">Search Parameters</div>
-		  <div class="panel-body">
-		    <input id="term" type="text" class="form-control" placeholder="Text input">
-			<input id="numRecords" type="text" class="form-control" placeholder="Text input">
-			<input id="startYear" type="text" class="form-control" placeholder="Text input">
-			<input id="endYear" type="text" class="form-control" placeholder="Text input">
-
-			<button id="search">Test</button>
-			<button id="claer">Test</button>
-
-		  </div>
-  	</div>
+          </div>
+     </div>
 
 </div>
 
